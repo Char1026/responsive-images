@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="Viewport" content="width=device-width">
+    
+    <title>Responsive Images</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Responsive Images</h1>
+    </header>
+    
+    <main>
+        <ul>
+            <li class="col">
+                <picture>
+                   <source srcset="img/1Large.png" media="(min-width: 1500px)"/>
+                   <source srcset="img/1Medium.png" media="(min-width: 700px) and (max-width: 1500px)"/>
+                   <source srcset="img/1Small.png" media="(max-width: 700px)"/>
+                   <img src="img/1Medium.png" alt="Mountains"/>
+                </picture>
+            </li>
+            <li class="col">
+                <picture>
+                    <source srcset="img/2Large.png" media="(min-width: 1500px)"/>
+                    <source srcset="img/2Medium.png" media="(min-width: 700px) and (max-width: 1500px)"/>
+                    <source srcset="img/2Small.png" media="(max-width: 700px)"/>
+                    <img src="img/2Medium.png" alt="Carrots"/>
+                </picture>
+            </li>
+            <li class="col">
+                <picture>
+                    <source srcset="img/3Large.png" media="(min-width: 1500px)"/>
+                    <source srcset="img/3Medium.png" media="(min-width: 700px) and (max-width: 1500px)"/>
+                    <source srcset="img/3Small.png" media="(max-width: 700px)"/>
+                    <img src="img/3Medium.png" alt="Crowd"/>
+                </picture>
+            </li>
+            <li class="col">
+                <picture>
+                    <source srcset="img/4Large.png" media="(min-width: 1500px)"/>
+                    <source srcset="img/4Medium.png" media="(min-width: 700px) and (max-width: 1500px)"/>
+                    <source srcset="img/4Small.png" media="(max-width: 700px)"/>
+                    <img src="img/4Medium.png" alt="Guitar"/>
+                </picture>
+            </li>
+            <li class="col">
+                <picture>
+                    <source srcset="img/5Large.png" media="(min-width: 1500px)"/>
+                    <source srcset="img/5Medium.png" media="(min-width: 700px) and (max-width: 1500px)"/>
+                    <source srcset="img/5Small.png" media="(max-width: 700px)"/>
+                    <img src="img/5Medium.png" alt="Guitar Player"/>
+                </picture>
+            </li>
+            <li class="col">
+                <picture>
+                    <source srcset="img/6Large.png" media="(min-width: 1500px)"/>
+                    <source srcset="img/6Medium.png" media="(min-width: 700px) and (max-width: 1500px)"/>
+                    <source srcset="img/6Small.png" media="(max-width: 700px)"/>
+                    <img src="img/6Medium.png" alt="Sunset"/>
+                </picture>
+            </li>
+            <li class="col">
+                <picture>
+                    <source srcset="img/7Large.png" media="(min-width: 1500px)"/>
+                    <source srcset="img/7Medium.png" media="(min-width: 700px) and (max-width: 1500px)"/>
+                    <source srcset="img/7Small.png" media="(max-width: 700px)"/>
+                    <img src="img/7Medium.png" alt="Nature"/>
+                </picture>
+            </li>
+        </ul>
+      
+    </main>
+    
+    <footer>
+        <p>&copy;<time datetime="2016">2016</time> Tyler Charlebois</p>
+    </footer>
+ 
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!--
+All images used are copyrighted from https://500px.com/markusspiske
+--!>
